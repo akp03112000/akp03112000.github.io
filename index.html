@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Akhilesh Prajapati</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <!--<li><a href="#research">Research</a></li>-->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Akhilesh Prajapati</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+        <!--  <li><a href="#research" onclick="toggleMenu">Research</a></li>-->
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-picture.png" alt="Akhilesh Prajapati" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Akhilesh Prajapati</h1>
+        <p class="section__text__p2">Aspiring Data Analyst || Data Engineer </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Akhilesh_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/akp03112000/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/akhilesh12114739'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-picture.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>0+ Years <br />Data Analyst || Data Engineer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Master's Degree in Data Science<br />Bachelor's Degree in CSE</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              "Motivated M.Tech student in Data Science and Analytics at Lovely Professional University, specializing in data analysis and engineering. Experienced in data mining, statistical analysis, and intelligent systems development, with a strong foundation in programming and data visualization. Aspiring to leverage analytical skills and technical expertise to drive data-driven decision-making and optimize data infrastructure in a dynamic role as a Data Analyst or Data Engineer."
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages/Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C/C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>DSA</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>R</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NoSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>VSCode</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Android Studio</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Science Coursework</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Big Data</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Excel</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Learning</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Rapid Miner</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>VMWare</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Cloud Computing</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Azure</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+                    
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    
+    <section id="projects">
+      <h3 class="section__text__p1">Browse My Recent</h3>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/old car predication.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project: Old Car Price Predictor</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/akp03112000/old-car-price-predication', '_blank')"
+                >
+                Github
+              </button>
+<!--              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/akp03112000/old-car-price-predication'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Netflix Dashboard.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Dynamic Dashboard in Tableau: Analyzing Netflix Dataset</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://public.tableau.com/app/profile/akhilesh.prajapati/viz/NETFLIXAnalysis_17300407554820/NetflixDashboard?publish=yes', '_blank')"
+                >
+                Tableau Public
+              </button>
+<!--              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://public.tableau.com/app/profile/akhilesh.prajapati/viz/NETFLIXAnalysis_17300407554820/NetflixDashboard?publish=yes'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/water purity.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Water Purity Analyzer</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/akp03112000/Water-purity-analyzer', '_blank')"
+                >
+                GitHub
+              </button>
+<!--              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/akp03112000/Water-purity-analyzer'"
+              >
+                Live Demo
+              </button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#certifications'"
+      />
+    </section>
+
+
+    <section id="certifications">
+      <h3 class="section__text__p1">Browse My Recent</h3>
+      <h1 class="title">Certifications</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/coursera image.png"
+                alt="Coursera img"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">C/C++,Python,Excel,
+              Tableau,Big Data,Machine Learning
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://www.coursera.org/learner/akp03112000', '_blank')"
+                >
+                Coursera
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/geeksforgeeks logo.png"
+                alt="geeksforgeeks img"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">DSA 8 Weeks Training,
+              HTML Workshop
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://www.geeksforgeeks.org/user/akp03112000/', '_blank')"
+                >
+                GeeksForGeeks
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Microsoft1.png"
+                alt="microsoft image"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Microsoft Azure Fundamentals,
+              Microsoft Azure Administrator, etc.
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://learn.microsoft.com/en-us/users/akhileshprajapati-4899/achievements?tab=tab-courses', '_blank')"
+                >
+                Microsoft Learn
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#research'"
+      />
+    </section>
+
+
+    <section id="research">
+      <h3 class="section__text__p1">Dive into My</h3>
+      <h1 class="title">Research Insights</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/google-scholar.png"
+            alt="Google scholar icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://scholar.google.com/citations?hl=en&user=pCQc6AgAAAAJ">Google Scholar</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/researchgate.png"
+            alt="Research_gate icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.researchgate.net/profile/Akhilesh-Prajapati-4">Research Gate</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/orcid image.png"
+            alt="Research_gate icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://orcid.org/my-orcid?orcid=0009-0002-1520-7998">ORCID</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/Academia.png"
+            alt="Research_gate icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://independent.academia.edu/akhileshprajapati38">ACADEMIA</a></p>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#code'"
+      />
+    </section>
+
+
+    <section id="code">
+      <h3 class="section__text__p1">Beyond the Books</h3>
+      <h1 class="title">Coding Profiles</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/hackerrank.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://www.hackerrank.com/profile/akp03112000">Hackerrank</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/leetcode.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://leetcode.com/u/akp03112000/">LeetCode</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/geeksforgeeks.png"
+            alt="Google scholar icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.geeksforgeeks.org/user/akp03112000/">GeeksForGeeks</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/github11.png"
+            alt="Research_gate icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.researchgate.net/profile/Akhilesh-Prajapati-4">GitHub</a></p>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+
+    
+    <section id="contact">
+      <h3 class="section__text__p1">Get in Touch</h3>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/gmail_icon.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:akp03112000@gmail.com">Email</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin_icon.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/akp03112000">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/x image.png"
+            alt="Google scholar icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://x.com/akp03112000">Twitter</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/call image.png"
+            alt="Research_gate icon"
+            class="icon contact-icon"
+          />
+          <p><a href="tel:+918795032869">Call</a></p>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 <a href="https://www.linkedin.com/in/akp03112000/" >Akhilesh Prajapati</a>. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
